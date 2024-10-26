@@ -1,0 +1,283 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:gradient #ffffff;
+    color: #343a40; /* Dark gray text */
+    line-height: 1.6;
+}
+body {
+    background-color: #f8f9fa;
+}
+#header {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+    padding: 20px 0;
+}
+header h1{
+    text-align: ;
+}
+}
+header {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+    padding: 20px 0;
+}
+h2 {
+    color: #343a40;
+    margin-top: 30px;
+}
+.article-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.article-card:hover {
+    transform: scale(1.05);
+}
+.article-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h2 {
+    color: #343a40;
+    margin-top: 30px;
+}
+.article-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.article-card:hover {
+    transform: scale(1.05);
+}
+.article-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.new{
+    padding: 30px;
+}
+
+h1, h2, h3 {
+    color: #045ebe; /* Bootstrap primary color */
+}
+.bg-primary text-white text-center py-3 h1{
+   background-color: #f8f9fa;
+}
+/* Header Styles */
+header {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+     /* Gradient background */
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #343a40 !important; /* Dark gray for nav links */
+}
+
+.nav-link:hover {
+    color: #0056b3 !important; /* Darker blue on hover */
+}
+
+/* Main Section Styles */
+.container {
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+section {
+    background-color: #dffbff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around sections */
+    box-shadow: 0 9px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Article Styles */
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #007bff; /* Article titles in primary color */
+}
+
+article a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+article a:hover {
+    text-decoration: solid greenyellow; /* Underline on hover */
+}
+#header h1{
+    color: #ffffff;
+    text-shadow: #343a40;
+}
+/* Form Styles */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.form-control:focus {
+    border-color: #0056b3; /* Darker border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff; /* Button border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #004085; /* Darker border on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark gray background */
+    color: white; /* White text */
+    padding: 15px 0; /* Padding for footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+#about{
+    height: 390px;
+}
+.nav-item{
+
+}
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+header {
+    background-color: #5bc0de; /* Lighter blue background */
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar {
+    justify-content: center;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 15px;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #f8f9fa !important;
+    text-decoration: underline;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .navbar-brand, .nav-link {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+header {
+    background-color: #5bc0de; /* Lighter blue background */
+    padding: 20px 0;
+    color: white;
+    position: relative;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+nav {
+    margin-top: 15px;
+}
+.navbar {
+    justify-content: center;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+    margin: 0 15px;
+}
+.navbar-brand:hover {
+    color: #f8f9fa !important; /* Light color on hover */
+    text-decoration: underline;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa !important; /* Light color on hover */
+}
+/* Footer styles are unchanged */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Responsive adjustments for header */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+        margin: 5px;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+}
